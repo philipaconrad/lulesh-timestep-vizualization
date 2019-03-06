@@ -4,6 +4,9 @@
 # Plot output files
 lulesh_plot_c*
 
+# LULESH build detritus
+lulesh/lulesh
+
 # Deps build folder
 deps/*
 
