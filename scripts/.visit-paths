@@ -1,0 +1,4 @@
+# Crazy shell trick to discover the directory of a file.
+# Cite: https://stackoverflow.com/a/5265862
+CURDIR=`echo ".visit-paths" | echo $(cd $(dirname "$1") && pwd -P)/$(basename "$1")`
+export PATH=$CURDIR/visit/bin:$PATH

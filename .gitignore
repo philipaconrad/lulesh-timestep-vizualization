@@ -11,8 +11,8 @@ lulesh/lulesh
 deps/*
 
 # Scripts build detritus
-scripts/*.tar
-scripts/visit
+scripts/*.tar.gz
+scripts/visit/*
 
 # Prerequisites
 *.d
