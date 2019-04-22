@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 # Install Ubuntu dependencies.
 sudo apt-get install -y libhdf5-dev hdf5-tools
+sudo apt-get install -y build-essential gfortran
 
 
 # -----------------------------------------------------------------------------
